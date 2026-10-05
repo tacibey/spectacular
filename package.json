@@ -1,0 +1,14 @@
+{
+  "name": "spectacular",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Spectacular — AI-powered advertising agency. One campaign a month, every month.",
+  "scripts": {
+    "dev": "python3 -m http.server 5173 --directory dist/client",
+    "build": "node scripts/build.mjs",
+    "preview": "python3 -m http.server 4173 --directory dist/client"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
